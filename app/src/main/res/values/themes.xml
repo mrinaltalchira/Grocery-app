@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ladduu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pure_black</item>
+        <item name="colorPrimaryVariant">@color/color_green</item>
+        <item name="colorOnPrimary">@color/color_green</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/contentTextColor</item>
+        <item name="colorOnSecondary">@color/color_green</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textViewStyle">@font/roboto</item>
+    </style>
+
+    <style name="Theme.Ladduu.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/color_green_intro</item>
+        <item name="colorPrimaryVariant">@color/color_green_intro</item>
+        <item name="colorOnPrimary">@color/color_green_intro</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/contentTextColor</item>
+        <item name="colorOnSecondary">@color/color_green_intro</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="fontFamily">@font/roboto</item>
+
+    </style>
+
+    <style name="Theme.Ladduu.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Ladduu.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppIntroTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#F57C00</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#F57C00</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+
+</resources>

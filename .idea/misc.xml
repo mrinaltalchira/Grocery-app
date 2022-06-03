@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/drawable/rounded_button_corner.xml" value="0.2526041666666667" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_add_new_address.xml" value="0.115625" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_address.xml" value="0.264" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_category.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_checkout.xml" value="0.4" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_edit_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_faq.xml" value="0.176" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_main.xml" value="0.19375" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_map.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_myaccount.xml" value="0.264" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_order_placed.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_otp.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_privacy_policy.xml" value="0.115625" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_restaurant_mart_past_order.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_sign_up.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/activity_splash.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_cart_product.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_category_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_coupon_code.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_order_details.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_order_history_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_product_bycategory.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/adapter_sub_categrory.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/addnewaddress_fragment.xml" value="0.3961937716262976" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/addreslayout_for_addnewaddress.xml" value="0.536" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/cart_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/create_new_address_fragment.xml" value="0.176" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/custome_dialoug_box_delete_address.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/custome_dialoug_box_delete_previour_cart.xml" value="0.536" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/customedialoug.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/fragment_order_placed.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.26480263157894735" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/fragment_restaurant_mart__past_order.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/home__fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/layout_parent.xml" value="0.41706161137440756" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/layout_second.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/recycler_address.xml" value="0.4" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/rv_profilefragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/search_fragment.xml" value="0.2" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/signin_activity.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/CityMart/app/src/main/res/layout/signin_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/activity_add_new_address.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/activity_edit_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/activity_main.xml" value="0.115625" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/activity_myaccount.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/addnewaddress_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/home__fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/image_slider.xml" value="0.23645833333333333" />
+        <entry key="..\:/iskylar project/Citymart/app/src/main/res/layout/search_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/add_cart_button_bg.xml" value="0.20046296296296295" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/background.xml" value="0.15520833333333334" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/bg_addressbtn.xml" value="0.16835443037974684" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/bg_bottom_nav_bar.xml" value="0.20461538461538462" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/bg_google_sign_btn.xml" value="0.20046296296296295" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/border_rounded_red.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.20461538461538462" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/circleview.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/corner_black.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/coupon_discount_bg.xml" value="0.16835443037974684" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/doted.xml" value="0.20052083333333334" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.16835443037974684" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.20461538461538462" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.16835443037974684" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/ic_cart.xml" value="0.16835443037974684" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/login_btn_background.xml" value="0.16835443037974684" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/minus.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/outline_privacy.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/progresscircle.xml" value="0.2078125" />
+        <entry key="..\:/ladduu/app/src/main/res/drawable/rounded_button_corner.xml" value="0.17051282051282052" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/accounts_fragment.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_accounts.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_add_new_address.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_address.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_checkout.xml" value="0.17407407407407408" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_contact_us.xml" value="0.18" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_coupon_code.xml" value="0.1648148148148148" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_create_address.xml" value="0.16145833333333334" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_detail_product.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_edit_profile.xml" value="0.14" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_google_phone_sign_in.xml" value="0.18" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_main.xml" value="0.17760416666666667" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_main2.xml" value="0.136" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_main3.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_main_temp.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_map.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_my_account.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_myaccount.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_order_detail.xml" value="0.18" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_order_history.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_otp.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_restaurant.xml" value="0.1648148148148148" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/activity_splash2.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/adapter_cart_product.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/adapter_category.xml" value="0.19166666666666668" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/adapter_category_home.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/adapter_order_history_layout.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/adapter_product_bycategory.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/add_new_address_fragment.xml" value="0.22239583333333332" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/addnewaddress_fragment.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/addreslayout_for_addnewaddress.xml" value="0.23661971830985915" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/addressactivityviewmode.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/blank_fragment.xml" value="0.21223354958294718" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/cart_fragment.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/cart_layout.xml" value="0.16" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/categories_fragment.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/category_activity.xml" value="0.15726495726495726" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/category_fragment.xml" value="0.14572649572649574" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/complete_order_fragment.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/contact_us_fragment.xml" value="0.17447916666666666" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/content_category.xml" value="0.15726495726495726" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/content_detail_product.xml" value="0.15726495726495726" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/content_my_account.xml" value="0.1648148148148148" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/create_new_address_fragment.xml" value="0.21" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/customedialoug.xml" value="0.264" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/edit_account_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_categorie.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_choose__language.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_container.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_dashboard.xml" value="0.15555555555555556" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_first.xml" value="0.15726495726495726" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_second.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_select_location.xml" value="0.16145833333333334" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_signin.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_temp1.xml" value="0.15555555555555556" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_temp2.xml" value="0.15555555555555556" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/fragment_wishlist.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/home__fragment.xml" value="0.33" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/main_category_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/my_account_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/myaccount.xml" value="0.115625" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/pending_order_fragment.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/product_fragment.xml" value="0.19166666666666668" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/profile_fragment.xml" value="0.15" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/profile_fragment2.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/recycler_address.xml" value="0.4" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/restautant_mart_fragment.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/rv_profilefragment.xml" value="0.33" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/search_fragment.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/search_item_recyclerview_layout.xml" value="0.2" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/sign_up_fragment.xml" value="0.1796875" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/signin_activitty.xml" value="0.18385416666666668" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/signin_activity.xml" value="0.25" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/signin_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/ladduu/app/src/main/res/layout/wishlist_fragment.xml" value="0.12121212121212122" />
+        <entry key="..\:/ladduu/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/ladduu/app/src/main/res/menu/menu_bottom_nav.xml" value="0.19166666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

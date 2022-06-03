@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#53b175</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+
+
+    <color name="primary">#53b175</color>
+    <color name="backgroud">#ffffff</color>
+    <color name="primary_text">#181725</color>
+    <color name="secondary_text">#9d9d9d</color>
+    <color name="white">#FFFFFFFF</color>
+<!--    <color name="transprent">#000000000</color>-->
+
+
+    <color name="card_background">#FAFAFA</color>
+    <color name="dashboard_item_1">#2cc2ea</color>
+    <color name="dashboard_item_2">#797f95</color>
+    <color name="dashboard_item_3">#72a4ff</color>
+    <color name="dashboard_item_4">#8b72bb</color>
+    <color name="whitesmoke">#f2f3f2</color>
+    <color name="gray">#8c8c8c</color>
+
+    <color name="seashell">#fef6ed</color>
+    <color name="honeydew">#e5f3ea</color>
+    <color name="purplesmoke">#f4ebf7</color>
+    <color name="mistyrose">#fde8e4</color>
+
+
+    <color name="color_orange">#FDBE01</color>
+    <color name="orange">#eca702</color>
+
+    <color name="color_blue">#046ccc</color>
+    <color name="background_color">#F7F8FA</color>
+
+    <color name="gray0">#EFEFF1</color>
+    <color name="gray1">#dddddd</color>
+    <color name="gray2">#d2d1d1</color>
+    <color name="gray3">#A8A8A8</color>
+    <color name="gray4">#868686</color>
+    <color name="gray5">#636262</color>
+    <color name="buble_msg">#E6E6E6</color>
+
+    <color name="switchColor">#DC2529</color>
+
+    <color name="offwhite">#f5f5f5</color>
+    <color name="oragne">#eca702</color>
+    <color name="green">#246803</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="color_yellow">#F7CA41</color>
+    <color name="color_green">#328541</color>
+    <color name="transparent_dim">#33000000</color>
+    <color name="black_lite">#80000000</color>
+
+    <!--colors for light mode-->
+
+    <color name="tabselectedcolor">#A8A8A8</color>
+    <color name="tabunselectedcolor">#A8A8A8</color>
+    <color name="headercolor">#A8A8A8</color>
+
+    <color name="hintcolor">#A8A8A8</color>
+
+    <color name="contentBodyColor">#ffffff</color>
+    <color name="card_color">#fff</color>
+    <color name="seearchBarcolor">#ededed</color>
+    <color name="contentTextColor">#000000</color>
+
+    <color name="badgetextcolor">#EFEFF1</color>
+
+    <color name="linecolor">#EFEFF1</color>
+    <color name="boxcolor">#000000</color>
+
+    <color name="contentToolbarColor">#F7F7F7</color>
+    <color name="badgebackground">#000</color>
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+
+    <color name="daynight_textColor">#000000</color>
+
+    <color name="designbar">#EFEFF1</color>
+
+    <color name="delete_message_text">#b8b8b8</color>
+
+    <color name="delete_message_bg">#f2f2f2</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#000000</color>
+    <color name="line">#000</color>
+    <color name="pure_black">#000000</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#F8F8F8</color>
+    <color name="color_green_intro">#D2FBBB</color>
+
+
+
+</resources>

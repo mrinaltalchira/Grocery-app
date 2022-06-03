@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+<data>
+
+</data>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.grocery_app.citymart.ui.fragment.accounts.AccountsFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl1_wishlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/offwhite"
+        android:elevation="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_wish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/accounts"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_below="@id/tv_wish"
+            android:elevation="@dimen/_14sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/black_lite"
+            />
+
+        <LinearLayout
+            android:id="@+id/LL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/tv_wish"
+
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/tv_signin_Accounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:padding="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/black_lite"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/LL1"
+
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/tv_signup_Accounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:padding="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/black_lite"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/ll2"
+
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/tv_contactUs_Accounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:padding="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/black_lite"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/ll3"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/tv_PrivacyPolicy_Accounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_and_conditions"
+                android:padding="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/black_lite"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
+</layout>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_f"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context="com.grocery_app.citymart.ui.fragment.home.HomeFragment"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/white">
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.core.widget.NestedScrollView
+                    android:id="@+id/nestedscrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:fillViewport="true"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:id="@+id/li_scrol"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            >
+
+
+                            <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+                                android:id="@+id/arc_viewpager"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_170sdp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginRight="10dp"
+                                android:elevation="@dimen/_10sdp"
+                                android:scaleType="fitCenter"
+                                app:corner_radius="20dp">
+
+                                <com.smarteist.autoimageslider.SliderView
+                                    android:id="@+id/imageSlider"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_320sdp"
+                                    android:fitsSystemWindows="true"
+                                    android:scaleType="fitXY"
+                                    app:sliderAnimationDuration="1000"
+                                    app:sliderAutoCycleDirection="right"
+                                    app:sliderAutoCycleEnabled="true"
+                                    app:sliderIndicatorAnimationDuration="3000"
+                                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                                    app:sliderIndicatorOrientation="horizontal"
+                                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                                    app:sliderIndicatorUnselectedColor="#FFF"
+                                    app:sliderScrollTimeInSec="3"
+                                    app:sliderStartAutoCycle="true"
+
+                                    />
+                                <!--                        <RelativeLayout-->
+                                <!--                            android:layout_width="match_parent"-->
+                                <!--                            android:layout_height="match_parent"-->
+                                <!--                            android:layout_marginBottom="10dp"-->
+                                <!--                            android:gravity="bottom|center_horizontal">-->
+
+                                <!--                            <com.rd.PageIndicatorView-->
+                                <!--                                android:id="@+id/pageIndicatorView"-->
+                                <!--                                android:layout_width="wrap_content"-->
+                                <!--                                android:layout_height="wrap_content"-->
+                                <!--                                android:visibility="visible"-->
+                                <!--                                app:piv_animationType="swap"-->
+                                <!--                                app:piv_dynamicCount="true"-->
+                                <!--                                app:piv_interactiveAnimation="true"-->
+                                <!--                                app:piv_selectedColor="@color/color_green"-->
+                                <!--                                app:piv_unselectedColor="@color/white"-->
+                                <!--                                app:piv_viewPager="@id/viewPager" />-->
+
+                                <!--                        </RelativeLayout>-->
+
+                            </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingLeft="7dp"
+                                android:paddingRight="7dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_15sdp"
+                                    android:layout_weight="2"
+                                    android:orientation="horizontal"
+
+                                    >
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/restaurant"
+                                        android:layout_width="0dp"
+                                        android:layout_height="@dimen/_40sdp"
+                                        android:layout_marginStart="@dimen/_5sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"
+                                        android:layout_marginEnd="@dimen/_10sdp"
+                                        android:layout_marginBottom="@dimen/_10sdp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/color_green"
+                                        app:cardCornerRadius="@dimen/_5sdp"
+                                        app:cardElevation="@dimen/_5sdp"
+
+                                        >
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:background="#D6EAF8"
+                                                android:shadowColor="@color/black"
+                                                android:src="@drawable/restaurantnew"
+                                                android:visibility="gone" />
+
+
+                                            <TextView
+                                                android:id="@+id/tv_restaurant"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:gravity="center_vertical"
+                                                android:text="@string/restaurants"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/_14sdp"
+                                                android:visibility="visible" />
+
+
+                                        </LinearLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/mart"
+                                        android:layout_width="0dp"
+                                        android:layout_height="@dimen/_40sdp"
+                                        android:layout_marginStart="@dimen/_5sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"
+                                        android:layout_marginEnd="@dimen/_5sdp"
+                                        android:layout_marginBottom="@dimen/_10sdp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/color_green"
+                                        app:cardCornerRadius="@dimen/_5sdp"
+                                        app:cardElevation="@dimen/_5sdp">
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+
+                                                android:background="@color/white"
+                                                android:src="@drawable/grocery_staples"
+                                                android:visibility="gone" />
+
+
+                                            <TextView
+                                                android:id="@+id/tv_Mart"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+
+                                                android:gravity="center_vertical"
+                                                android:text="@string/mart"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/_14sdp"
+                                                android:visibility="visible" />
+
+
+                                        </LinearLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_50sdp"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/_5sdp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/categories"
+                                            android:textColor="@color/color_green"
+                                            android:textSize="@dimen/_14sdp"
+                                            android:textStyle="normal" />
+
+                                        <LinearLayout
+                                            android:id="@+id/ll_all_catogary"
+                                            android:layout_width="@dimen/_20sdp"
+                                            android:layout_height="@dimen/_20sdp"
+                                            android:layout_alignParentRight="true"
+                                            android:background="@drawable/circleview">
+
+                                            <ImageView
+                                                android:layout_width="@dimen/_20sdp"
+                                                android:layout_height="@dimen/_20sdp"
+                                                android:src="@drawable/ic_baseline_arrow_forward_24"
+                                                app:tint="@color/white" />
+
+                                        </LinearLayout>
+
+                                    </RelativeLayout>
+
+                                    <androidx.recyclerview.widget.RecyclerView
+                                        android:id="@+id/rv_mainCategory"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                        app:spanCount="3"
+                                        tools:listitem="@layout/adapter_category_home" />
+
+                                </LinearLayout>
+
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/progresscircle"
+                                    android:visibility="gone" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </androidx.core.widget.NestedScrollView>
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>

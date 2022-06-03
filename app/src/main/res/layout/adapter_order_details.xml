@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <data>
+
+    </data>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_10sdp"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageVerfied"
+
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        app:srcCompat="@drawable/verified"
+        app:tint="@color/color_green"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <TextView
+        android:id="@+id/tv_title_orderDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/imageVerfied"
+        android:text="pizza"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/roboto"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_price_orderDetil"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Rs.20"
+        android:textAlignment="viewEnd"
+
+        android:textSize="@dimen/_12sdp"
+
+        />
+</RelativeLayout>
+
+</layout>

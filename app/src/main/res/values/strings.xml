@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">CityMart</string>
+    <string name="userId_key" translatable="false">UserId</string>
+
+
+    <string name="address">Address</string>
+    <string name="addres">Address</string>
+    <string name="contactno">+91–94629–44388 / +91-141-4043097</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="iskylar_mail">hello@iskylar.com</string>
+    <string name="banglourAddress">G-01, Vandana Alpyne, 84 Manganammpalya Main Road. ITI Layout. Bangalore – 560068</string>
+    <string name="second_address">Second Address</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="country">Country</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="profile_image">profile image</string>
+    <string name="history">History</string>
+    <string name="check_your_history">Check Your History</string>
+    <string name="card_name">User Name</string>
+    <string name="view_account">View Account</string>
+    <string name="check_your_profile">Check Your Profile</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="check_our_terms_and_conditions">Check our Terms and conditions</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="check_our_privacy_policy">Check our Privacy policy</string>
+    <string name="replace_and_refund_policy">Replace and Refund policy</string>
+    <string name="check_info_about_replace_and_refund_policy">Check info about Replace and Refund policy</string>
+    <string name="contact_us">Contact us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="see_all">See All</string>
+    <string name="household">Household</string>
+    <string name="beverages">Beverages</string>
+    <string name="dairy_amp_bread"><![CDATA[Dairy & Bread]]></string>
+    <string name="personal_care">Personal Care</string>
+    <string name="categories">Categories</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="total">Total:</string>
+    <string name="add_promo_code_here">Add Promo Code Here</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="accounts">Accounts</string>
+    <string name="terms_of_use_and_privacy_policy">Terms of Use and Privacy Policy</string>
+    <string name="sign_up">Sign up</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="mart">Mart</string>
+    <string name="grocery_amp_staples"><![CDATA[Grocery & Staples]]></string>
+    <string name="title_activity_category">categoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_detail_product">DetailProductActivity</string>
+    <string name="order_date">Order date</string>
+    <string name="order_id">Order id :</string>
+    <string name="order_status">Order Status</string>
+    <string name="message_for_seller">Message For Seller</string>
+    <string name="discount">Discount</string>
+    <string name="contact_rider">Contact Rider</string>
+    <string name="MyAccount">My Account</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="size">Size :</string>
+    <string name="coupon_code">Coupon Code</string>
+    <string name="item_total">Item Total</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="description">Description</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="add_coupon_code_here">Add Coupon Code Here</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="signout">Sign Out</string>
+    <string name="title_activity_my_account">MyAccountActivity</string>
+    <string name="profile_pic">Profile Pic</string>
+    <string name="address_details">Address details</string>
+    <string name="add_location">Add Location</string>
+    <string name="deleivery_to_this_adress">Delivery to this address</string>
+    <string name="instruction">Instruction</string>
+    <string name="city">City</string>
+    <string name="house_or_street_number">House or Street number</string>
+    <string name="save_location">Save Location</string>
+    <string name="no">No</string>
+    <string name="yes">yes</string>
+    <string name="are_you_sure_you_want_to_clear_this_cart">Are you sure you want to clear this cart?</string>
+    <string name="whoops">Whoops!</string>
+    <string name="there_is_no_data">There is no data</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="enter_coupon_code">Enter Coupon Code</string>
+    <string name="apply">APPLY</string>
+    <string name="available_coupons">AVAILABLE COUPONS</string>
+    <string name="personal_information">Personal information</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="help">Help</string>
+    <string name="faq_links">FAQ Links</string>
+    <string name="past_order">Past Order</string>
+    <string name="saved_address">Saved Address</string>
+    <string name="edit">Edit</string>
+    <string name="name">Name</string>
+    <string name="full_name">(Full Name)</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone_no">Enter Phone no.</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="please_select_any_address">Please select any address</string>
+    <string name="add_new">Add New</string>
+    <string name="saved">Saved</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="pay_by_others">Pay By Others</string>
+    <string name="confirm">Confirm</string>
+    <string name="select_payment_type">Select Payment Type</string>
+    <string name="skip">Skip</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="discount_amp_offer"><![CDATA[Discount & Offer]]></string>
+    <string name="add_new_address">Add new Address</string>
+    <string name="enter_the_verification_code_sent_to_your_mobile_number">Enter the verification code sent to your mobile number</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="send_otp">Send OTP</string>
+
+
+    <string name="channel_id" translatable="false">hardik-channel</string>
+    <string name="channel_name" translatable="false">hardik</string>
+    <string name="loading">Loading</string>
+    <string name="order_no">Order NO.</string>
+    <!--    <string name="default_web_client_id">"AIzaSyDpa_gR9uOFQdDMtyKAx65Q6dwgGbJTBj8"</string>-->
+</resources>

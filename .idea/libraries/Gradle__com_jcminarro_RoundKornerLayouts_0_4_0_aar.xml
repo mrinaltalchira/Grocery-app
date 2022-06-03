@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jcminarro:RoundKornerLayouts:0.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1fb563e42edbd197786a2e98e239a925/transformed/jetified-RoundKornerLayouts-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1fb563e42edbd197786a2e98e239a925/transformed/jetified-RoundKornerLayouts-0.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1fb563e42edbd197786a2e98e239a925/transformed/jetified-RoundKornerLayouts-0.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

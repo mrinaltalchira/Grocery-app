@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true">
+
+        <RelativeLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/contentToolbarColor"
+                android:elevation="4dp"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                        app:tint="@color/green" />
+
+
+                    <TextView
+                        android:id="@+id/tv_categoryName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/back_btn"
+                        android:text="@string/beverages"
+                        android:textColor="@color/contentTextColor"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinner_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_categoryName"
+
+
+                        android:layout_alignEnd="@+id/tv_categoryName"
+
+                        android:layout_toEndOf="@+id/back_btn" />
+
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/coordinator"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/toolbar">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/Edit_prof_ABL_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                    <com.google.android.material.appbar.CollapsingToolbarLayout
+                        android:id="@+id/Edit_prof_collapsTB_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:contentScrim="@color/transparent"
+                        app:expandedTitleGravity="center_horizontal"
+                        app:expandedTitleMarginEnd="48dp"
+                        app:expandedTitleMarginStart="48dp"
+                        app:expandedTitleTextAppearance="@android:color/transparent"
+                        app:layout_scrollFlags="scroll|enterAlways">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:background="@color/contentToolbarColor">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+                                    android:id="@+id/search_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/toolbar"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:background="@color/seearchBarcolor"
+                                    android:visibility="visible"
+                                    app:corner_radius="8dp">
+
+
+                                    <EditText
+                                        android:id="@+id/et_search_product"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="35dp"
+                                        android:layout_centerVertical="true"
+                                        android:layout_toEndOf="@+id/iv_serch"
+                                        android:layout_toRightOf="@+id/iv_serch"
+                                        android:background="@color/gray0"
+                                        android:backgroundTint="@color/transparent"
+                                        android:drawableStart="@drawable/ic_baseline_search_24"
+                                        android:drawableLeft="@drawable/ic_baseline_search_24"
+                                        android:hint="@string/search"
+                                        android:imeOptions="actionSearch"
+                                        android:paddingStart="10dp"
+                                        android:paddingLeft="10dp"
+                                        android:singleLine="true"
+                                        android:textColor="@color/contentTextColor"
+                                        android:textColorHint="@color/contentTextColor"
+                                        android:textSize="16dp" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_croos"
+                                        android:layout_width="40dp"
+                                        android:layout_height="20dp"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/ic_baseline_search_24"
+                                        android:visibility="gone"
+                                        app:tint="@color/oragne" />
+
+                                </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/coordinator"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll1_categoryActivity"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:elevation="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_7sdp"
+
+                    >
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_subcategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:nestedScrollingEnabled="false"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        tools:listitem="@layout/adapter_category_home" />
+
+
+                </LinearLayout>
+
+
+                <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                    android:id="@+id/refresh_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_toRightOf="@+id/ll1_categoryActivity"
+
+                    >
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/category_recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:nestedScrollingEnabled="false"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="2"
+                        tools:listitem="@layout/adapter_category_home" />
+
+
+                </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

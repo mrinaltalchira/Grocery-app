@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.splash.Splash2"
+    android:background="#D2FBBB"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:textSize="@dimen/_15sdp"
+        android:textAlignment="viewEnd"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/color_green"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount"
+        android:textSize="@dimen/_30sdp"
+        android:textAlignment="gravity"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/color_green"
+        android:layout_marginLeft="@dimen/_57sdp"
+
+        />
+    <RelativeLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@drawable/splashbg"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        >
+
+
+    <ImageView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+
+        />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:text="Get attractive discount on grocery and mart"
+        android:textSize="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/color_green"
+        android:layout_gravity="center"
+
+
+        />
+
+
+
+
+
+</LinearLayout>
